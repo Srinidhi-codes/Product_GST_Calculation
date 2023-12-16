@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Create Sale</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="topnav">
+      <a href="/index.html">Home</a>
+      <a href="/product.html">Product</a>
+      <a class="active" href="/sale.html">Sale</a>
+    </div>
+    <!-- Navbar Section ENDS-->
+
+    <div class="container">
+      <h1>Create Sale</h1>
+
+      <form id="saleForm">
+        <label for="selectCategory">Select Category:</label>
+        <select id="selectCategory" onchange="updateTaxRate()" required>
+          <!-- Populate options dynamically using JavaScript -->
+        </select>
+        <label for="selectProduct">Select Product:</label>
+        <select id="selectProduct" onchange="populateProductDetails()" required>
+          <!-- Populate options dynamically using JavaScript -->
+        </select>
+        <label for="quantity">Quantity:</label>
+        <input
+          type="number"
+          id="quantity"
+          onChange="updateTotalAmount()"
+          required
+        />
+        <label for="gstRate">GST Rate:</label>
+        <input type="text" id="gstRate" readonly />
+        <label for="totalAmount">Total Amount:</label>
+        <input type="text" id="totalAmount" readonly /><br />
+        <div class="secondary">
+          <button type="button" onclick="addToSale()">Generate Bill</button>
+        </div>
+      </form>
+
+      <h1 class="billHeading"></h1>
+      <table id="billTable">
+        <!-- WILL BE POPULATED FROM JS -->
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

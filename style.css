@@ -1,0 +1,128 @@
+/* Utility CSS Starts */
+body {
+  background-color: #f8fcda;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #0a122a;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #804e49;
+  text-shadow: 0 0 7px #1a1919;
+}
+
+label {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+input,
+select {
+  border-radius: 10px;
+  border: aqua 2px solid;
+  height: 3rem;
+  width: 15rem;
+  margin-right: 20px;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+}
+
+.secondary {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 15px;
+  background-color: #a18276;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5rem;
+  margin-left: 15rem;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: #a0ccda 0 8px 10px;
+  transition: 0.2s ease-in-out;
+  background-color: #b6efd4;
+  color: #000000;
+}
+span {
+  padding: 15px;
+  background-color: #a18276;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+span:hover {
+  box-shadow: #a0ccda 0 8px 10px;
+  transition: 0.2s ease-in-out;
+  background-color: #b6efd4;
+  color: #000000;
+}
+
+/* Utility CSS Ends */
+
+/* Navbar CSS Starts */
+
+.topnav {
+  background-color: #b2ddf7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #000000;
+  text-align: center;
+  padding: 16px 40px;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.topnav a:hover {
+  background-color: #00171f;
+  color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+  background-color: #5ca4a9;
+  color: rgb(0, 0, 0);
+}
+
+/* Navbar CSS Ends */
+
+table {
+  background-color: #ddd;
+  border-radius: 10px;
+  border: rgb(24, 24, 24) 1px solid;
+  height: 2rem;
+  margin-right: 20px;
+}
+td {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.goToSales {
+  text-decoration: none;
+  margin-top: 3rem;
+}
