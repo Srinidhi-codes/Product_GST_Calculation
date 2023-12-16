@@ -29,6 +29,15 @@ This repository contains a simple web application for managing Goods and Service
 3. **Sales and Billing:**
    - [sales.html](sales.html)
 
+## Screen Shots
+![Screenshot 1](images/0.png)
+
+![Screenshot 1](images/1.png)
+
+![Screenshot 1](images/2.png)
+
+![Screenshot 1](images/3.png)
+
 ## Getting Started
 
 1. Clone the repository:
