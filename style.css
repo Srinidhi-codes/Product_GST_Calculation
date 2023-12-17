@@ -1,6 +1,6 @@
 /* Utility CSS Starts */
 body {
-  background-color: #f8fcda;
+  background-color: #eaf2ef;
 }
 .container {
   display: flex;
@@ -99,6 +99,8 @@ span:hover {
 .topnav a:hover {
   background-color: #00171f;
   color: rgb(255, 255, 255);
+  box-shadow: #2a3b33 0 15px 8px;
+  transition: all 0.8s ease-in-out;
 }
 
 .topnav a.active {
